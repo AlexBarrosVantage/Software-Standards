@@ -1,103 +1,104 @@
 # Development Standards and Guidelines (C#)
-##[Contents] (https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#contents)
-[1	About the Guide](https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#1--about-the-guide)
+## [Contents](https://github.com/CA-CST-SII/SoftwareStandards/blob/master/C%23_Standards.md#contents)
 
-[2	Purpose](https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#2--purpose)
+[1	About the Guide](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#1--about-the-guide)
 
-[3	Library Organization](https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#3-library-organization)
+[2	Purpose](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#2--purpose)
 
-&nbsp;&nbsp;[3.1	Library Taxonomy](https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#31-library-taxonomy)
+[3	Library Organization](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#3-library-organization)
 
-&nbsp;&nbsp;[3.2	Library Structure](https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#32-library-structure)
+&nbsp;&nbsp;[3.1	Library Taxonomy](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#31-library-taxonomy)
 
-&nbsp;&nbsp;[3.3	Library Usage](https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#33-library-usage)
+&nbsp;&nbsp;[3.2	Library Structure](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#32-library-structure)
 
-[4	Programming Standards](https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#4-programming-standards)
+&nbsp;&nbsp;[3.3	Library Usage](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#33-library-usage)
 
-&nbsp;&nbsp;[4.1	About Code Uniformity](https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#41-about-code-uniformity)
+[4	Programming Standards](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#4-programming-standards)
 
-&nbsp;&nbsp;[4.2	Naming Conventions](https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#42-naming-conventions)
+&nbsp;&nbsp;[4.1	About Code Uniformity](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#41-about-code-uniformity)
 
-&nbsp;&nbsp;&nbsp;&nbsp;[4.2.1 Naming Overview](https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#421-naming-overview)
+&nbsp;&nbsp;[4.2	Naming Conventions](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#42-naming-conventions)
 
-&nbsp;&nbsp;&nbsp;&nbsp;[4.2.2 Hungarian Notation] (https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#422-hungarian-notation)
+&nbsp;&nbsp;&nbsp;&nbsp;[4.2.1 Naming Overview](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#421-naming-overview)
 
-&nbsp;&nbsp;&nbsp;&nbsp;[4.2.3 Capitalization Styles](https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#423-capitalization-styles)
+&nbsp;&nbsp;&nbsp;&nbsp;[4.2.2 Hungarian Notation] (https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#422-hungarian-notation)
 
-&nbsp;&nbsp;&nbsp;&nbsp;[4.2.4 Naming Guidelines](https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#424-naming-guidelines)
+&nbsp;&nbsp;&nbsp;&nbsp;[4.2.3 Capitalization Styles](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#423-capitalization-styles)
 
-&nbsp;&nbsp;[4.3	Code Structure](https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#43-code-structure)
+&nbsp;&nbsp;&nbsp;&nbsp;[4.2.4 Naming Guidelines](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#424-naming-guidelines)
 
-&nbsp;&nbsp;&nbsp;&nbsp;[4.3.1 Code Separation](https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#431-code-separation)
+&nbsp;&nbsp;[4.3	Code Structure](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#43-code-structure)
 
-&nbsp;&nbsp;&nbsp;&nbsp;[4.3.2 Wrapping Lines](https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#432-wrapping-lines)
+&nbsp;&nbsp;&nbsp;&nbsp;[4.3.1 Code Separation](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#431-code-separation)
 
-&nbsp;&nbsp;&nbsp;&nbsp;[4.3.3 Declarations](https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#433-declarations)
+&nbsp;&nbsp;&nbsp;&nbsp;[4.3.2 Wrapping Lines](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#432-wrapping-lines)
 
-&nbsp;&nbsp;&nbsp;&nbsp;[4.3.4 Formatting Conditional/Flow Statements](https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#434-formatting-conditionalflow-statements)
+&nbsp;&nbsp;&nbsp;&nbsp;[4.3.3 Declarations](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#433-declarations)
 
-&nbsp;&nbsp;&nbsp;&nbsp;[4.3.5 Implementing Structure Standards](https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#435-implementing-structure-standards)
+&nbsp;&nbsp;&nbsp;&nbsp;[4.3.4 Formatting Conditional/Flow Statements](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#434-formatting-conditionalflow-statements)
 
-[5	Best Practices](https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#5-best-practices)
+&nbsp;&nbsp;&nbsp;&nbsp;[4.3.5 Implementing Structure Standards](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#435-implementing-structure-standards)
 
-&nbsp;&nbsp;[5.1 Visibility](https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#51-visibility)
+[5	Best Practices](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#5-best-practices)
 
-&nbsp;&nbsp;[5.2 No embedded, user-facing strings](https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#52-no-embedded-user-facing-strings)
+&nbsp;&nbsp;[5.1 Visibility](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#51-visibility)
 
-&nbsp;&nbsp;[5.3 No 'magic' Numbers](https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#53-no-magic-numbers)
+&nbsp;&nbsp;[5.2 No embedded, user-facing strings](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#52-no-embedded-user-facing-strings)
+
+&nbsp;&nbsp;[5.3 No 'magic' Numbers](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#53-no-magic-numbers)
 
 
-[6. Code Level Metrics](https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#6-code-level-metrics)
+[6. Code Level Metrics](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#6-code-level-metrics)
 
-[7. Simple Coding Guidelines](https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#7-simple-coding-guidelines)
+[7. Simple Coding Guidelines](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#7-simple-coding-guidelines)
 
-[8	Code Examples](https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#8-code-examples)
+[8	Code Examples](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#8-code-examples)
 
-&nbsp;&nbsp;[8.1	Brace Placement Example](https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#81-brace-placement-example)
+&nbsp;&nbsp;[8.1	Brace Placement Example](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#81-brace-placement-example)
 
-&nbsp;&nbsp;[8.2	Variable Naming Example](https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#82-variable-naming-example)
+&nbsp;&nbsp;[8.2	Variable Naming Example](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#82-variable-naming-example)
 
-[9	Embedded Comments and Documentation](https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#9-embedded-comments-and-documentation)
+[9	Embedded Comments and Documentation](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#9-embedded-comments-and-documentation)
 
-&nbsp;&nbsp;[9.1	Avoid Methods with a Very Low Comments/Code Ratio](https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#91--avoid-methods-with-a-very-low-commentscode-ratio)
+&nbsp;&nbsp;[9.1	Avoid Methods with a Very Low Comments/Code Ratio](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#91--avoid-methods-with-a-very-low-commentscode-ratio)
 
-&nbsp;&nbsp;[9.2	Avoid Classes with a Very Low Comment/Code Ratio](https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#92--avoid-classes-with-a-very-low-commentcode-ratio)
+&nbsp;&nbsp;[9.2	Avoid Classes with a Very Low Comment/Code Ratio](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#92--avoid-classes-with-a-very-low-commentcode-ratio)
 
-&nbsp;&nbsp;[9.3	Avoid Interfaces with a Very Low Comment/Code Ratio](https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#93--avoid-interfaces-with-a-very-low-commentcode-ratio)
+&nbsp;&nbsp;[9.3	Avoid Interfaces with a Very Low Comment/Code Ratio](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#93--avoid-interfaces-with-a-very-low-commentcode-ratio)
 
-&nbsp;&nbsp;[9.4	Block Comments](https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#94-block-comments)
+&nbsp;&nbsp;[9.4	Block Comments](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#94-block-comments)
 
-&nbsp;&nbsp;[9.5	Single-Line Comments](https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#95-single-line-comments)
+&nbsp;&nbsp;[9.5	Single-Line Comments](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#95-single-line-comments)
 
-&nbsp;&nbsp;[9.6	XML Documentation Overview](https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#96-xml-documentation-overview)
+&nbsp;&nbsp;[9.6	XML Documentation Overview](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#96-xml-documentation-overview)
 
-&nbsp;&nbsp;&nbsp;&nbsp;[9.6.1 XML Documentation Tag Usage](https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#961-xml-documentation-tag-usage)
+&nbsp;&nbsp;&nbsp;&nbsp;[9.6.1 XML Documentation Tag Usage](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#961-xml-documentation-tag-usage)
 
-&nbsp;&nbsp;&nbsp;&nbsp;[9.6.2 Implementing XML Documentation](https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#962-implementing-xml-documentation)
+&nbsp;&nbsp;&nbsp;&nbsp;[9.6.2 Implementing XML Documentation](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#962-implementing-xml-documentation)
 
-[Appendix A - XML Documentation Tags](https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#appendix-a---xml-documentation-tags)
+[Appendix A - XML Documentation Tags](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#appendix-a---xml-documentation-tags)
 
-##[Tables](https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#tables)
+## [Tables](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#tables)
 [Table 6. Code Level Metrics](#Table 6)
 
 ## 1.  About the Guide
-This guide covers structuring and naming of the Apptis/Project libraries in such a manner that other developers/teams can easily determine whether or not an object that provides desired functionality already exists, easily locate objects slated for modification, and decide where to include new development.  The guide also covers software coding standards; and although the primary focus will be on programs written in C #, many of the rules and principles are useful and apply to programs written in other languages.  Finally, the guide will briefly cover embedded XML documentation and includes a more extensive elaboration on usage in [Appendix A] (https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#appendix-a---xml-documentation-tags) - taken from a white paper article written by Anson Horton from the .NET Framework community website. 
+This guide covers structuring and naming of the Vantage libraries in such a manner that other developers/teams can easily determine whether or not an object that provides desired functionality already exists, easily locate objects slated for modification, and decide where to include new development.  The guide also covers software coding standards; and although the primary focus will be on programs written in C #, many of the rules and principles are useful and apply to programs written in other languages.  Finally, the guide will briefly cover embedded XML documentation and includes a more extensive elaboration on usage in [Appendix A] (https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#appendix-a---xml-documentation-tags) - taken from a white paper article written by Anson Horton from the .NET Framework community website. 
 
-##[Contents] (https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#contents)
+## [Contents](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#contents)
 
-##2.  Purpose
+## 2.  Purpose
 Project specific C# coding standards are maintained by the lead developer for each project.
 
 It is expected that all new C# code will adhere to these standards; existing code can be retrofitted to meet the standards to whatever degree possible, as modifications to that code are required. 
 
-##[Contents] (https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#contents)
+## [Contents](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#contents)
 
-##3. Library Organization
-###3.1 Library Taxonomy
+## 3. Library Organization
+### 3.1 Library Taxonomy
 The taxonomy presented in this section is a partial library layout with some explanation.  
 
 Structure and usage will be discussed in the subsequent sections.  
-* Apptis
+* Vantage.Services
   * Common – Houses the company’s core objects that are not “Account” specific (e.g., the Data Access Layer) and may be shared across multiple projects/accounts.
     * DataAccess
       * DBConnection.cs
@@ -147,55 +148,55 @@ Structure and usage will be discussed in the subsequent sections.
       * SignatureService
       * QualityControl
 
-##[Contents] (https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#contents)
+## [Contents](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#contents)
 
-###3.2 Library Structure###
-The library directory should be structured and named in a manner that makes it intuitive for a developer to easily check for existing functionality.  In general namespaces should match with the corresponding code directory structure (e.g., Apptis.TDIS.Common.Passport would align with the Apptis/TDIS/Common/Passport path).  This makes it easier to map namespaces to the directory layout, and makes it a relatively trivial matter for a developer to look for the appropriate “using” directive in a code file and locate the underlying functionality.  
+### 3.2 Library Structure
+The library directory should be structured and named in a manner that makes it intuitive for a developer to easily check for existing functionality.  In general namespaces should match with the corresponding code directory structure (e.g., Vantage.Services.Estimator.Models would align with the Vantage.Services/Estimator/Models path).  This makes it easier to map namespaces to the directory layout, and makes it a relatively trivial matter for a developer to look for the appropriate “using” directive in a code file and locate the underlying functionality.  
 
-However, this is not to say that every folder MUST map to a namespace.  If you’re creating a sub-folder within a project for organizational purposes, it is recommended that the objects within these folders share the same root namespace as the project (e.g., items within the Apptis/TDIS/Common/Passport/Applicant folder would lie within the Apptis.TDIS.Common.Passport namespace).  Again, this greatly simplifies library inclusion with the “using” directive and may vastly reduce the impact of a library consolidation and re-organization.
+However, this is not to say that every folder MUST map to a namespace.  If you’re creating a sub-folder within a project for organizational purposes, it is recommended that the objects within these folders share the same root namespace as the project (e.g., items within the Vantage/Services/Estimator/Models/Order folder would lie within the Vantage.Services.Estimator.Models namespace).  Again, this greatly simplifies library inclusion with the “using” directive and may vastly reduce the impact of a library consolidation and re-organization.
 
-##[Contents] (https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#contents)
+## [Contents](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#contents)
 
-###3.3 Library Usage###
+### 3.3 Library Usage
 The first place a Team/Developer should look for developing a NEW system or Project is in the Apptis.Common section of the library.  If there is no existing functionality for the GENERAL type of development they are performing and it is conceivable that other systems may need the functionality at some future point, it should be implemented within the Apptis.Common section for other Projects to use.  Likewise, this may also be a good time to investigate whether other Developers/Teams have implemented functionality similar to what is needed, and if so, considering abstracting it out into the Apptis.Common section of the library.  
 
 When adding/extending functionality to an existing Project, a developer should be able to look in the module folder (i.e., look in Apptis.TDIS.ModuleName if modifying an existing module) to see how current functionality has been implemented, and look to the Project and Apptis Common folders for existing business or non-domain specific objects.  If the folder structure is laid out in a sensible fashion and the underlying objects carry with them meaningful names, it should be relatively easy to determine whether or not there are existing pieces to the puzzle they are working on.  Again this is also a good time to look for existing functionality that is not in the Common area and re-factor and move it out if possible.  
 
-##[Contents] (https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#contents)
+## [Contents](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#contents)
 
-##4. Programming Standards##
-###4.1 About Code Uniformity###
+## 4. Programming Standards
+### 4.1 About Code Uniformity
 Whereas most developers are familiar with writing code that a compiler can interpret, this section may be read as a guide that focuses on helping developers adopt code Naming Conventions, Structure, and Documentation/Comments that will help other developers understand the purpose of existing code.  Typically it is much simpler for a developer to familiarize their self with new code that has naming conventions and formatting similar to their own.  
 
-##[Contents] (https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#contents)
+## [Contents](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#contents)
 
-###4.2 Naming Conventions###
-####4.2.1 Naming Overview####
-In general, put every class in a separate file and name the file like the class name.  An exception to this would be private inner classes.  Class names typically describe the business entity that the class represents or the function or set of functionality the class provides.  This convention makes things much easier to follow and significantly lends to self-documenting code.  Class and file names should NOT include the company and/or project name (e.g. GDSSecurity, TDISPassport, etc.).  Although this may have made some small amount of sense for COM objects, the combination of appropriate module name selection and the namespace paradigm used throughout the .NET framework make this unnecessary.   An obvious exception to this would be Bridge or Adapter classes where the name denotes the systems being bridged (e.g., TDISFEPAdapter).
+### 4.2 Naming Conventions
+#### 4.2.1 Naming Overview
+In general, put every class in a separate file and name the file like the class name.  An exception to this would be private inner classes.  Class names typically describe the business entity that the class represents or the function or set of functionality the class provides.  This convention makes things much easier to follow and significantly lends to self-documenting code.  Class and file names should NOT include the company and/or project name (e.g. CPQSecurity, VantageUser, etc.).  Although this may have made some small amount of sense for COM objects, the combination of appropriate module name selection and the namespace paradigm used throughout the .NET framework make this unnecessary.   An obvious exception to this would be Bridge or Adapter classes where the name denotes the systems being bridged (e.g., TDISFEPAdapter).
 
 For classes/files/methods keep your source code short, divide your code up into methods that are named such that their purpose is clear.  Unusually long classes/methods are sometimes cumbersome to name (not to mention read through) as they often perform multiple semi-atomic tasks.  This usually a good sign that some method and/or class refactoring is in order.
 
-##[Contents] (https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#contents)
+## [Contents](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#contents)
 
-####4.2.2 Hungarian Notation####
+#### 4.2.2 Hungarian Notation
 Generally, the use of Hungarian notation in the naming objects/variables is considered poor practices in terms of modern programming standards.  
 
 Hungarian notation is a defined set of prefixes and suffixes, which are applied to names to reflect the type of the variable.  This style of naming was widely used in early Windows programming, but now is obsolete or at least should be considered deprecated.  Using Hungarian notation is not allowed if you follow this guide.
 
 Instead modern standards call for names that denote usage rather than type.  In other words a good variable name describes the semantic. 
 
-One exception to this rule is UI code. All fields and variable names that contain UI elements such as a button should be suffixed with their type name without abbreviations. For example:
+One exception to this rule is UI code. All fields and variable names that contain UI elements such as a button should be prefixed with their abbreviated type name. For example:
 
 ```C#
-System.Windows.Forms.Button cancelButton;
-System.Windows.Forms.TextBox firstNameTextBox;
+System.Windows.Forms.Button btnCancel;
+System.Windows.Forms.TextBox txtFirstName;
 ```
 
-##[Contents] (https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#contents)
+## [Contents](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#contents)
 
-####4.2.3 Capitalization Styles
+#### 4.2.3 Capitalization Styles
 
-#####4.2.3.1 *Camel Casing*
+##### 4.2.3.1 *Camel Casing*
 This convention capitalizes the first character of each word except the first one (e.g.<code>standardsAndGuidelines</code>).  Other conditions are as follow:
 
 *	The first letter is capitalized. 
@@ -206,10 +207,10 @@ This convention capitalizes the first character of each word except the first on
 *	No dot(.), under_score or dash (-) within the word, only letters: Camel_Case
 
 
-#####4.2.3.2 *Pascal Casing*
+##### 4.2.3.2 *Pascal Casing*
 This convention capitalizes the first character of each word (e.g., <code>StandardsAndGuidelines</code>).
 
-#####4.2.3.3 *Upper case*
+##### 4.2.3.3 *Upper case*
 Only use all upper case for identifiers if it consists of an abbreviation or acronym that is only a few characters long.  Longer identifiers should use Pascal Casing instead.
 
 For Example:
@@ -222,47 +223,47 @@ public class Math
 }
 ```
 
-##[Contents] (https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#contents)
+## [Contents](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#contents)
 
-####4.2.4 Naming Guidelines####
-#####4.2.4.1 *Class Naming Guidelines*
+#### 4.2.4 Naming Guidelines
+##### 4.2.4.1 *Class Naming Guidelines*
 * Class names must be nouns or noun phrases.
 * Use Pascal Casing.
 * Do not use any class prefix.
 
-#####4.2.4.2 *Interface Naming Guidelines* 
+##### 4.2.4.2 *Interface Naming Guidelines* 
 * Name interfaces with nouns or noun phrases or adjectives describing behavior. (Example IComponent or IEnumberable)
 * Use Pascal Casing.
 * Use I as prefix for the name, it is followed by a capital letter (first char of the interface name)
 
-#####4.2.4.3 *Enum Naming Guidelines* 
+##### 4.2.4.3 *Enum Naming Guidelines* 
 * Use Pascal Casing for enum value names and enum type names.
 * Don’t prefix (or suffix) an enum type or enum values.
 * Use singular names for enums.
 
-#####4.2.4.4 *Static and Const Field Names* 
+##### 4.2.4.4 *Static and Const Field Names* 
 * Name static fields with nouns, noun phrases or abbreviations for nouns
 * Use Pascal Casing.
 
-#####4.2.4.5 *Non- const Field /Member Variable Names* 
+##### 4.2.4.5 *Non- const Field /Member Variable Names* 
 * Use descriptive names that, if done properly should be enough to indicate the variable meaning/usage and provide insight into the underlying type.
 * Use an underscore “_” as a prefix for private and protected class member variables (declared at the top of the class above any constructors) so they can be easily identified and located.
 *Use Camel Casing after the underscore.
 
-#####4.2.4.6 *Method Names*
+##### 4.2.4.6 *Method Names*
 * Name methods with verbs or verb phrases.
 * Use Pascal Casing.
 
-#####4.2.4.7 *Method Parameters and Local Variables*
+##### 4.2.4.7 *Method Parameters and Local Variables*
 * Use descriptive names that, if done properly should be enough to indicate the variable meaning/usage and provide insight into the underlying type.
 * Use Camel Casing.
 
-#####4.2.4.8 *Property Names*
+##### 4.2.4.8 *Property Names*
 * Name properties using nouns or noun phrases.
 * Use Pascal Casing.
 * Consider naming a property with the same name as the underlying class variable (without the underscore prefix).
 
-#####4.2.4.9 *Event Names*
+##### 4.2.4.9 *Event Names*
 * Name event handlers with the EventHandler suffix.
 * Use two parameters named sender and e.
 * Use Pascal Casing.
@@ -271,22 +272,22 @@ public class Math
 * Consider naming events using a verb.  
 * Consider using the “On” prefix, e.g., OnStart.
 
-#####4.2.4.10	*Namespace Names*
+##### 4.2.4.10	*Namespace Names*
 *	Use Pascal Casing.
 
-#####4.2.4.11	*Private/Public Fields Names*
+##### 4.2.4.11	*Private/Public Fields Names*
 *	Use Pascal Casing.
 *	Do not include any underscore.
 	
-#####4.2.4.12	*Controls Names*
+##### 4.2.4.12	*Controls Names*
 *	Use naming conventions (Exmaple btn* for buttons, chk* for check boxes, cmb* for combo boxes)
 *	Do not include any underscore.
 
-#####4.2.4.13	*Exception Names*#####
+##### 4.2.4.13	*Exception Names*
 *	Use Pascal Casing.
 *	End with X.
 
-#####4.2.4.10 *Capitalization summary*#####
+##### 4.2.4.10 *Capitalization summary*
 
 <table>
 <caption>style#“caption-side:bottom;”|<em>Table 4.2.4.10 Capitalization Summary</em></caption>
@@ -361,18 +362,18 @@ public class Math
 </tbody>
 </table>
 
-###4.3 Code Structure###
-####4.3.1 Code Separation####
-#####4.3.1.1 *Separation Overview*#####
+### 4.3 Code Structure
+#### 4.3.1 Code Separation
+##### 4.3.1.1 *Separation Overview*
 Imagine trying to read a book or a magazine article with no spaces between the words or any 
 indentation and/or blank lines to set-off or separate paragraphs.  It becomes readily 
 apparent just how powerful these simple formatting tools are in contributing to the flow and 
 readability of the text.  Similarly, the proper usage of indentation, blank lines, and white 
 spaces will vastly improve the flow and readability of source code. 
 
-##[Contents] (https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#contents)
+## [Contents](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#contents)
 
-#####4.3.1.2 *Indentation*#####
+##### 4.3.1.2 *Indentation*
 An indentation standard using spaces never was achieved.  Some people like 2 spaces; some 
 prefer 4 and others 8, or even more spaces.  For this reason it is better use tabs and we 
 define the Tab as the standard indentation character.  Tab characters have some advantages:
@@ -398,9 +399,9 @@ declaration.
 * If a declaration or statement continues onto subsequent lines the “wrapped” portion should 
 be indented (see Wrapping Lines).
 
-##[Contents] (https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#contents)
+## [Contents](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#contents)
 
-#####4.3.1.3 *Blank Lines*#####
+##### 4.3.1.3 *Blank Lines*
 Blank lines used within and between Methods, Properties, etc. improve readability.  They set 
 off blocks of code that are logically related.
 
@@ -416,9 +417,9 @@ One blank line should always be used between:
 * Local variables in a method and its first statement
 * Logical sections inside a method to improve readability
 
-##[Contents] (https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#contents)
+## [Contents](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#contents)
 
-#####4.3.1.4 *Spacing*#####
+##### 4.3.1.4 *Spacing*
 The following spacing rules should be followed:
 * No space between a method name and the opening parenthesis "(".
 * No space between the parentheses for methods with no params in the signature.
@@ -529,9 +530,9 @@ Don't use:
 prevVariable#curVariable;
 ```
 
-##[Contents] (https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#contents)
+## [Contents](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#contents)
 
-####4.3.2 Wrapping Lines####
+#### 4.3.2 Wrapping Lines
 When an expression will not fit on a single line, break it up according to these general 
 principles:
 
@@ -589,10 +590,10 @@ Where `'>'` are tab chars and `'.'` are spaces (the spaces after the tab char mu
 the first char of the previous line).  For this reason it may be easier to simply indent with 
 an additional tab rather than align continuations of variable lists and expressions.
 
-##[Contents] (https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#contents)
+## [Contents](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#contents)
 
-####4.3.3 Declarations####
-#####4.3.3.1  *Number of Declarations per Line*#####
+#### 4.3.3 Declarations
+##### 4.3.3.1  *Number of Declarations per Line*
 One declaration per line is recommended since it allows for commenting should the variable 
 name not suffice.  In other words,
 
@@ -609,10 +610,10 @@ int a, b; // What is 'a'? What does 'b' stand for?
 ```
 The above example also demonstrates the drawbacks of non-obvious variable names.  
 
-#####4.3.3.2	*Avoid declaring public Fields*
+##### 4.3.3.2	*Avoid declaring public Fields*
 Public Fields (defined in a class) should not be used.  Public Fields can be accessed by any other Class, Therefore its value can be modified at any time, without control by the Class itself. In addition, direct use of Public Fields does not let Field definition evolve without requiring updates to all Objects referencing it.  This goes against OO Encapsulation concepts.
 
-#####4.3.3.3 *Initialization*#####
+##### 4.3.3.3 *Initialization*
 Wherever possible try to initialize local variables as soon as they are declared. 
 
 For example:
@@ -636,7 +637,7 @@ using( OpenFileDialog openFileDialog # new OpenFileDialog() )
 }
 ```
 
-#####4.3.3.4 *Class, Interface, and Method Declarations*#####
+##### 4.3.3.4 *Class, Interface, and Method Declarations*
 * The opening brace "{" appears in the next line after the declaration statement.
 * The closing brace "}" starts a line by itself indented to match its corresponding opening 
 brace.
@@ -681,10 +682,10 @@ class BoundedCounter : CounterBase, ICounter
 ```
 For a brace placement example see the Brace Example.
 
-##[Contents] (https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#contents)
+## [Contents](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#contents)
 
-####4.3.4 Formatting Conditional/Flow Statements####
-#####4.3.4.1 *Formatting if, if-else, if else-if else Statements*#####
+#### 4.3.4 Formatting Conditional/Flow Statements
+##### 4.3.4.1 *Formatting if, if-else, if else-if else Statements*
 The if, if-else and else-if else statements should be formatted as follows:
 ```C#
 if( condition )
@@ -722,7 +723,7 @@ else
 ```
 Note: Generally use brackets even if there is only one statement in condition.
 
-#####4.3.4.2 *Formatting for / foreach Statements*#####
+##### 4.3.4.2 *Formatting for / foreach Statements*
 A for statement should have following format:
 ```C#
 for( int loopIndex # 0; loopIndex < 5; ++ loopIndex )
@@ -744,7 +745,7 @@ foreach( int i in IntList )
 ```
 Note: Generally use brackets even if there is only one statement in the loop.
 
-#####4.3.4.3 *Formatting  while/do-while Statements*#####
+##### 4.3.4.3 *Formatting  while/do-while Statements*
 A while statement should be written as follows:
 ```C#
 while( condition )
@@ -767,7 +768,7 @@ do
 while( condition );
 ```
 
-#####4.3.4.4 *Formatting switch Statements*#####
+##### 4.3.4.4 *Formatting switch Statements*
 A switch statement should be of following form:
 ```C#
 switch( condition )
@@ -784,7 +785,7 @@ switch( condition )
 }
 ```
 
-#####4.3.4.5 *try-catch Statements*#####
+##### 4.3.4.5 *try-catch Statements*
 A try-catch statement should follow this form:
 ```C#
 try
@@ -826,10 +827,10 @@ finally
 }
 ```
 
-##[Contents] (https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#contents)
+## [Contents](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#contents)
 
-####4.3.5 Implementing Structure Standards####
-#####4.3.5.1 *Within Visual Studio*#####
+#### 4.3.5 Implementing Structure Standards
+##### 4.3.5.1 *Within Visual Studio*
 For the most part In Visual Studio 2003 these code formatting practices must be adopted and 
 adhered to via the developer’s own diligence.
 
@@ -841,21 +842,21 @@ shots below.
 TODO:  Screen Shots to be added.
 
 
-##[Contents] (https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#contents)
+## [Contents](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#contents)
 
-##5. Best Practices##
-###5.1 Visibility###
+## 5. Best Practices
+### 5.1 Visibility
 Do not make any instance or class variable public make them private or protected.   Instead, 
 use properties if you need to expose a class variable.  You may use public static fields (or 
 const) as an exception to this rule, but it should not be the rule.
 
-###5.2 No embedded, user-facing strings.###
+### 5.2 No embedded, user-facing strings.
 No UI elements (Labels, Drop Downs, Text Boxes, Error Messages, etc.) should use text that is 
 embedded in the application.  In .Net much of this can be overcome by enabling localization, 
 and the remainder should rely on some construct that can display the appropriate text from a 
 persistent store such as the Notification layer.
 
-###5.3 No 'magic' Numbers###
+### 5.3 No 'magic' Numbers
 Don’t use magic numbers, i.e. place constant numerical values directly into the source code. 
 Replacing these later on in case of changes (say, your application can now handle 32767 users 
 instead of the 255 hard-coded into your code in 50 lines scattered throughout your 25000 LOC) 
@@ -868,9 +869,9 @@ public class MyMath
 }
 ```
 
-##[Contents] (https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#contents)
+## [Contents](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#contents)
 
-##6. Code Level Metrics
+## 6. Code Level Metrics
 Code level metrics (both at method and class levels) serve to keep the characteristics of the code within certain limits in order to enhance the readability/understandability, maintainability, testability, and in certain cases, security and performance of the code.  The most commonly known metric is the Cyclomatic complexity or very roughly, the number of decision-making and/or branches in the code. High levels of complexity lead to difficulty understanding and testing code and therefore reduce the maintainability and testability of the code. The less complexity in the C# code, the less room for error, the easier it is to test and to understand and therefore maintain the code. Ensure your C# code meets the following metrics:
 <a name="Table 6"></a>
 <table>
@@ -1004,9 +1005,9 @@ Code level metrics (both at method and class levels) serve to keep the character
 </table>
 
 
-##[Contents] (https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#contents)
+## [Contents](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#contents)
 
-##7. Simple Coding Guidelines
+## 7. Simple Coding Guidelines
 
 *	Avoid Artifacts with Too Many Parameters
 *	Avoid Artifacts with Lines Longer than 80 characters
@@ -1048,10 +1049,10 @@ Code level metrics (both at method and class levels) serve to keep the character
 *	Avoid Superclass Knowing Subclass
 *	Use an accessor method known a getter and a setter
 
-##[Contents] (https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#contents)
+## [Contents](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#contents)
 
-##8. Code Examples##
-###8.1 Brace Placement Example###
+## 8. Code Examples
+### 8.1 Brace Placement Example
 ```C#
 namespace ShowMeTheBracket
 {
@@ -1099,9 +1100,9 @@ Brackets should begin on a new line after:
 * Looping statements with multiple subordinate statements.
 * Conditional statements with multiple subordinate statements.
 
-##[Contents] (https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#contents)
+## [Contents](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#contents)
 
-###8.2 Variable Naming Example###
+### 8.2 Variable Naming Example
 
 Instead of:
 ```C#
@@ -1161,26 +1162,26 @@ Note: Indexer variables are generally named i,j,k, etc.  But in cases like this,
 sense to reconsider this rule.  In general, when the same counters or indexers are reused or 
 can provide insight into the functionality, give them meaningful names.
 
-##[Contents] (https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#contents)
+## [Contents](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#contents)
 
-##9. Embedded Comments and Documentation##
+## 9. Embedded Comments and Documentation
 
-###9.1	Avoid Methods with a Very Low Comments/Code Ratio
+### 9.1	Avoid Methods with a Very Low Comments/Code Ratio
 Add comments into method implementation to explain their goal and how they work.  Methods should have at least a ratio comment/code > 5%.
 
-##[Contents] (https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#contents)
+## [Contents](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#contents)
 
-###9.2	Avoid Classes with a Very Low Comment/Code Ratio
+### 9.2	Avoid Classes with a Very Low Comment/Code Ratio
 Add comments into class definition to explain their goal and how they work. Classes should have at least a ratio comment/code > 5%.
 
-##[Contents] (https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#contents)
+## [Contents](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#contents)
 
-###9.3	Avoid Interfaces with a Very Low Comment/Code Ratio
+### 9.3	Avoid Interfaces with a Very Low Comment/Code Ratio
 Interfaces must be documented. Documenting interfaces is extremely important as the interfaces define a contract that will be implemented and used by others. Interfaces should have at least a ratio comment/code > 5%.
 
-##[Contents] (https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#contents)
+## [Contents](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#contents)
 
-###9.4 Block Comments###
+### 9.4 Block Comments
 Block comments should not be used above Constructors, Methods, and Properties.  Instead use 
 the `///` XML comments discussed in a later section to give C # standard descriptions.  For the 
 most part, appropriately named classes, methods, properties, and variables should make the 
@@ -1201,9 +1202,9 @@ the comment block off from code for the (human) reader.   Comment blocks are als
 being deprecated should not be “commented out” and left in the source files.  Instead, rely 
 on the source repository to retain historical functionality.
 
-##[Contents] (https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#contents)
+## [Contents](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#contents)
 
-###9.5 Single-Line Comments###
+### 9.5 Single-Line Comments
 Single-line `//` comments should be used where subtle clarification is needed.  A rule of thumb 
 is that the length of a comment should not exceed the length of the code being explained; 
 and, with the exception of complex algorithms/business rules, the need for long comments is 
@@ -1216,9 +1217,9 @@ the same level as the code they are clarifying.  When using single-line comments
 out" code, place the `//` comment marks at the beginning of the line to enhance the visibility 
 of commented out code.  
 
-##[Contents] (https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#contents)
+## [Contents](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#contents)
 
-###9.6 XML Documentation Overview###
+### 9.6 XML Documentation Overview
 In the .NET framework, Microsoft has introduced a documentation generation system based on 
 XML comments. These comments are formally single line C# comments containing XML tags. They 
 follow this pattern for single line comments:
@@ -1252,9 +1253,9 @@ The latter category governs the layout of the documentation, using tags such as 
 For a more complete explanation of XML comments see the Microsoft .NET framework SDK 
 documentation.
 
-##[Contents] (https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#contents)
+## [Contents](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#contents)
 
-####9.6.1 XML Documentation Tag Usage####
+#### 9.6.1 XML Documentation Tag Usage
 For all classes, types, enums, and class members, a `<summary>` tag must be used, regardless of whether they are public, protected, or private.  This can be simply done by positioning the cursor on an empty line above the statement you wish to comment and typing ‘`///`’.  The VS .NET editor will automatically turn this into a correctly structured `<summary>` block, and will add `<param>` tags also if the statement is a method and has parameters.
 
 The `<remarks>` tag should be used in addition to the `<summary>` tag for any code that does not allow for brief description.  This can be combined with the `<example>` tag to demonstrate usage if helpful.
@@ -1267,19 +1268,19 @@ Any method with a return value must have a `<remarks>` tag describing the return
 
 Once XML documentation has been created, it is only truly useful if transforms are applied to make it readable.  A popular open source application called NDOC does a very good job of this.  NDOC can generate HTML or Windows based .chm help files. As of the writing of this guide NDOC is available in at the DevSystemSoftware/ndoc share.
 
-More information on XML Documentation Tags can be found in [Appendix A] (https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#appendix-a---xml-documentation-tags).
+More information on XML Documentation Tags can be found in [Appendix A] (https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#appendix-a---xml-documentation-tags).
 
-##[Contents] (https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#contents)
+## [Contents](https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#contents)
 
-####9.6.2 Implementing XML Documentation####
-#####9.6.2.1 *Within Visual Studio*#####
+#### 9.6.2 Implementing XML Documentation
+##### 9.6.2.1 *Within Visual Studio*
 In Visual Studio 2003 consider using the latest 2003 compatible GhostDoc Add-In (1.3.0 as of this writing).
 
 In Visual Studio 2005 consider using the latest 2005 compatible GhostDoc Add-In (1.9.2 as of this writing).
 
 There also exists Add-Ins for previewing your comments, such as QuickDocViewer. 
 
-##[Contents] (https://github.com/CA-CST-SII/Software-Standards/blob/master/C%23_Standards.md#contents)
+##[Contents] (https://github.com/GALMFG/SoftwareStandards/blob/master/C%23_Standards.md#contents)
   
 # Appendix A - XML Documentation Tags
 
